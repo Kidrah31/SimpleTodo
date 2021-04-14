@@ -96,7 +96,7 @@ public class MainActivity extends AppCompatActivity {
     protected void onActivityResult(int requestCode, int resultCode, @Nullable Intent data) {
         if(resultCode==RESULT_OK && requestCode== EDIT_TEXT_CODE)
         {
-            //Retreive the updated text value
+            //Retrieve the updated text value
             String itemText= data.getStringExtra(KEY_ITEM_TEXT);
 
             //Extract the original position of the edited item from the position key

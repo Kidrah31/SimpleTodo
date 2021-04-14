@@ -43,6 +43,7 @@ public class ItemsAdapter extends RecyclerView.Adapter<ItemsAdapter.ViewHolder>{
         String item= items.get(position);
         //Bind the item into the specified view holder
         holder.bind(item);
+
     }
 
     @Override
